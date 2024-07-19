@@ -11,5 +11,15 @@ namespace WinFormsApp6
         {
             MessageBox.Show("Yeni bir mesaj eklendi.");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string test = "yeni bir deðisken";
+            
+            if (string.IsNullOrEmpty(test))
+            {
+                MessageBox.Show("Deger yok");
+            }
+        }
     }
 }
