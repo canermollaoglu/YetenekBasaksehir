@@ -16,11 +16,16 @@ namespace WinFormsApp6
         private void button1_Click(object sender, EventArgs e)
         {
             string test = "yeni bir deðisken";
-            
+
             if (string.IsNullOrEmpty(test))
             {
                 MessageBox.Show("Deger yok");
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
         }
     }
 }
